@@ -7,17 +7,34 @@
     </head> 
     <body>     
         <header>
-            <img src="/app/static/Koala.jpg" alt="Picture of me">
-            <p clas="header">Ramal Carbon</p>
+            <img src="{{url_for("static",file_name="/Koala.jpg")}}" alt="Picture of me">
             <div>
-            @Cabo88</br>
-            Grandbay, Dominica</br>
-            Joined Februay, 2019
+            <name>Ramal Carbon</name></br>
+                @Cabo88</br>
+                Grandbay, Dominica</br>
+                Joined Februay, 2019
             </div>
           
         </header>
         <main>
-          Main
+          <p>A hard working individual with a strong rural upringing from humble beginnings.
+          I lived on a famrn therfore i practeced diligence and that persistence pays off. 
+          Applying this to real world situations have provedd helpful in guiding me along my
+          way and have taught me to rely on my intuition and instincts.</p>
+          
+          <table>
+              <tr>
+                  <td>43</td>
+                  <td>289</td>
+                  <td>1002</td>
+              </tr>
+              <tr>
+                  <td>posts</td>
+                  <td>following</td>
+                  <td>followers</td>
+              </tr>
+          </table><br><br>
+          <input type="button" value="Follow" name="follow">
         </main> 
     </body> 
 </html> 

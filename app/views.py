@@ -15,7 +15,7 @@ from flask import render_template, request, redirect, url_for, flash
 
 @app.route('/profile') 
 def profile():   
-    return 'Profile page' 
+    return render_template('profile.html') 
 
 @app.route('/')
 def home():
