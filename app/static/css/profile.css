@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+header{
+    background-color: grey;
+     grid-column: 2 / 4;
+     border-radius:15px 15px 0 0;
+}
+
+main {
+    background-color: silver;
+     grid-column: 2 / 4;
+     border-radius:0 0 15px 15px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  padding:0em;
+}
+
+header, main{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+} 
+
+header{
+  /*height: 10vw;*/
+}
+
+img{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+}
